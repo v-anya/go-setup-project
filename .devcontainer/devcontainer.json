@@ -1,0 +1,16 @@
+{
+    "name": "Go Set Up Project",
+    "image": "mcr.microsoft.com/devcontainers/go:latest",
+    "features": {
+      "ghcr.io/devcontainers/features/go:1": {
+        "version": "latest"
+      }
+    },
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "golang.go"
+        ]
+      }
+    }
+  }
